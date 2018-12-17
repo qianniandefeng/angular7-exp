@@ -1,0 +1,13 @@
+<div class="content-wrap">
+  <div *ngFor="let article of articles" class="article">
+    <h3 class="title" [class.hot]="article.yd>1000">{{article.title}}</h3>
+    <p class="zy">
+      {{article.zy}}
+    </p>
+    <p class="info">
+      <span>2018-11-18 21:15:</span>&nbsp;&nbsp;
+      <span>阅读数：{{article.yd}}</span>&nbsp;&nbsp;
+      <span>评论数：{{article.pl}}</span>&nbsp;&nbsp;
+    </p>
+  </div>
+</div>

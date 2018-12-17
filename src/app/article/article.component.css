@@ -1,0 +1,30 @@
+.content-wrap{
+  box-shadow: 0 0 3px rgb(220, 220, 220);
+  background: white;
+}
+.article{
+  padding: 10px;
+  margin: 5px 0px;
+  border-bottom: 1px solid rgb(240,240,240);
+}
+
+.article h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  font-family: "SF Pro Display",Roboto,Noto,Arial,"PingFang SC",sans-serif;
+}
+.zy{
+  font-size: 14px;
+  color: #999;
+  letter-spacing: 0.5px;
+  font-family: "SF Pro Display",Roboto,Noto,Arial,"PingFang SC",sans-serif;
+}
+
+.info{
+  color: #6b6b6b;
+  margin-top: 10px;
+}
+.hot{
+  color: red !important;
+}
