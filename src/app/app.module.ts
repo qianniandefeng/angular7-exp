@@ -10,6 +10,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ArticleComponent } from './article/article.component';
 
+import { MainComponent } from './main/main.component';
+import { CallComponent } from './call/call.component';
+import { AboutComponent } from './about/about.component';
+
 @NgModule({
   // 声明模块的内部成员
   declarations: [
@@ -19,6 +23,10 @@ import { ArticleComponent } from './article/article.component';
     SidebarComponent,
     FooterComponent,
     ArticleComponent,
+
+    MainComponent,
+    CallComponent,
+    AboutComponent,
   ],
   // 导入其它模块
   imports: [
