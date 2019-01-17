@@ -3,42 +3,10 @@
     热门文章
   </div>
   <div class="panel-body">
-    <div class="media">
+
+    <div class="media" *ngFor="let item of sidebars">
       <div class="media-left">
-        <a href="#">
-          <img src="https://via.placeholder.com/64" alt="" class="media-object">
-        </a>
-      </div>
-      <div class="media-body">
-        <h4 class="media-heading">JDK环境变量配置</h4>
-        <p>JDK环境变量配置，首先从官网下载对应版本..</p>
-      </div>
-    </div>
-    <div class="media">
-      <div class="media-left">
-        <a href="#">
-          <img src="https://via.placeholder.com/64" alt="" class="media-object">
-        </a>
-      </div>
-      <div class="media-body">
-        <h4 class="media-heading">JDK环境变量配置</h4>
-        <p>JDK环境变量配置，首先从官网下载对应版本..</p>
-      </div>
-    </div>
-    <div class="media">
-      <div class="media-left">
-        <a href="#">
-          <img src="https://via.placeholder.com/64" alt="" class="media-object">
-        </a>
-      </div>
-      <div class="media-body">
-        <h4 class="media-heading">JDK环境变量配置</h4>
-        <p>JDK环境变量配置，首先从官网下载对应版本..</p>
-      </div>
-    </div>
-    <div class="media">
-      <div class="media-left">
-        <a href="#">
+        <a [href]="item.href">
           <img src="https://via.placeholder.com/64" alt="" class="media-object">
         </a>
       </div>

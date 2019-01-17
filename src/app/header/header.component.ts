@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  private searchName;
+  togo = function () {
+    console.log(this.searchName);
+    alert(this.searchName);
+  }
   constructor() { }
-
   ngOnInit() {
   }
-
 }
